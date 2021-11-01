@@ -22,23 +22,31 @@ group: eserToRelax
 description[[
 
 This database was made with eserToRelaX,
-you can find it here: 
+you can find it here: https://github.com/Calonca/eserToRelaX
+
+]]
+
+group: eserToRelax
+description[[
+
+This database was made with eserToRelaX,
+you can find it here: https://github.com/Calonca/eserToRelaX
 
 ]]
 
 TableName1 = {num, name
-a, lo
-lo, a
-th, a
-th, a
-b, th}
+1, lo
+1, a
+0, b
+2, lo
+0, b}
 
 TableName2 = {date, columnNameB
-2021-11-04, lo
-2021-11-04, th
-1997-11-04, a
-2021-11-04, th
-2004-05-15, th}
+2004-05-15, lo
+2004-05-15, lo
+2004-05-15, b
+1997-11-04, lo
+2021-11-04, th}
 ```
 
 ## Requirements
