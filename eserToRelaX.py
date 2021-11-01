@@ -43,7 +43,7 @@ output = """group: eserToRelax
 description[[
 
 This database was made with eserToRelaX,
-you can find it here: 
+you can find it here: https://github.com/Calonca/eserToRelaX
 
 ]]
 
@@ -61,6 +61,7 @@ for line in lines:
     data = list(map(lambda x:listOfDataOfTypes(types),range(0,tableLenght)))
     output += tableInRelaX(tableName,columnsStr,data)
 
+print("Paste the following inside the group editor, it has also been copied to the clipboard\n")
 print(output)
 
 r.withdraw()
@@ -68,4 +69,4 @@ r.clipboard_clear()
 r.clipboard_append(output)
 r.update() # now it stays on the clipboard after the window is closed
 r.destroy()
-print("The output has been copied to the clipboard")
+input()
