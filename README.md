@@ -6,17 +6,16 @@
     
 
 ## Example
-<a name="example"/>
 This script generates a database usable in [RelaX](http://dbis-uibk.github.io/relax/landing) 
 
-It transform input like
+It transform input like:
 
 ```
   TableName1(num,name)
   TableName2(date,columnNameB)
 ```
 
-into 
+into:
 
 ```
 group: eserToRelax
@@ -43,14 +42,11 @@ TableName2 = {date, columnNameB
 ```
 
 ## Requirements
-<a name="requirements"/>
-
-You need Python 3 nad the module unidecode
-You can install unidecode using pip
+You need Python 3 nad the module unidecode<br>
+You can install unidecode using pip.
 
 
 ## Usage
-<a name="usage"/>
 1. Open a terminal window in the folder where the script is located and run
 
 ```
