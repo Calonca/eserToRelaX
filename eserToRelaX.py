@@ -10,7 +10,7 @@ class Type(enum.Enum):
     #Change the values to generare different kinds of data
     #             keywords                                    values
     dataT   = (0,["data","date"],                           ["2021-11-04","2004-05-15","1997-11-04"])
-    intT    = (1,["matricola","numero","telefono","codice"],["123","0","1","2"])
+    intT    = (1,["matricola","num","telefono","codice"],["123","0","1","2"])
     numT    = (2,["voto"],                                  ["27.5","18","22.1"])
     stringT = (3,[""],                                      ["a","b","th","lo"])
 
