@@ -26,14 +26,6 @@ you can find it here: https://github.com/Calonca/eserToRelaX
 
 ]]
 
-group: eserToRelax
-description[[
-
-This database was made with eserToRelaX,
-you can find it here: https://github.com/Calonca/eserToRelaX
-
-]]
-
 TableName1 = {num, name
 1, lo
 1, a
@@ -58,7 +50,7 @@ You can install unidecode using pip.
 1. Open a terminal window in the folder where the script is located and run
 
 ```
-python eserToRelaX.py
+python3 eserToRelaX.py
 ```
 
 2. Copy the input into the clipboard and press enter
