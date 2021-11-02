@@ -6,7 +6,7 @@
     
 
 ## Example
-This script generates a database usable in [RelaX](http://dbis-uibk.github.io/relax/landing) 
+This script generates a database usable in [RelaX](http://dbis-uibk.github.io/relax/calc/local/uibk/local/0) 
 
 It transform input like:
 
@@ -55,6 +55,6 @@ python3 eserToRelaX.py
 
 2. Copy the input into the clipboard![image](https://user-images.githubusercontent.com/36551215/139943273-d9b62693-bb3e-48cc-93d8-fda60d602514.png)
 3. Press Enter
-4. Copy the output inside RelaX Group Editor
+4. Copy the output inside [RelaX](http://dbis-uibk.github.io/relax/calc/local/uibk/local/0)  Group Editor
 5. Click on preview
 6. Click on "use Group in editor" (click multiple times if it doesn't work)
