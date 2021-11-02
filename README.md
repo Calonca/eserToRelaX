@@ -54,6 +54,6 @@ python3 eserToRelaX.py
 ```
 
 2. Copy the input into the clipboard and press enter
-3. Copy the output inside RelaX group editor
+3. Copy the output inside RelaX Group Editor
 4. Click on preview
 5. Click on "use Group in editor" (click multiple times if it doesn't work)
