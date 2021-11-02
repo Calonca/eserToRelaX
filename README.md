@@ -42,7 +42,7 @@ TableName2 = {date, columnNameB
 ```
 
 ## Requirements
-You need Python 3 nad the module unidecode<br>
+You need Python 3 and the module unidecode<br>
 You can install unidecode using pip.
 
 
