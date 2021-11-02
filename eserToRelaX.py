@@ -48,7 +48,7 @@ you can find it here: https://github.com/Calonca/eserToRelaX
 ]]
 
 """
-input("Copy the text in the format \nTableName1(culumnName1,culumnName2)\nTableName2(columnName1,columnName2)\nthen press enter")
+input("Copy the text in the format \n____________________\nTableName1(culumnName1,culumnName2)\nTableName2(columnName1,columnName2)\n____________________\ninto the clipboard\nthen press enter")
 
 r = Tk()
 inSt = r.clipboard_get()
@@ -60,8 +60,8 @@ for line in lines:
     types = list(map(findType,columnsStr))
     data = list(map(lambda x:listOfDataOfTypes(types),range(0,tableLenght)))
     output += tableInRelaX(tableName,columnsStr,data)
-
-print("Paste the following inside the group editor, it has also been copied to the clipboard\n")
+print("+______________________")
+print("|Paste the following inside the group editor, it has also been copied to the clipboard\n")
 print(output)
 
 r.withdraw()
