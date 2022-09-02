@@ -48,7 +48,7 @@ you can find it here: https://github.com/Calonca/eserToRelaX
 ]]
 
 """
-input("Copy the text in the format \n____________________\nTableName1(culumnName1,culumnName2)\nTableName2(columnName1,columnName2)\n____________________\ninto the clipboard\nthen press enter")
+input("Copy the text in the format \n____________________\nTableName1(columnName1,columnName2)\nTableName2(columnName1,columnName2)\n____________________\ninto the clipboard\nthen press enter")
 
 r = Tk()
 inSt = r.clipboard_get()
